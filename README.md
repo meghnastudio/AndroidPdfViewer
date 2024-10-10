@@ -25,6 +25,16 @@ Add to _gradle.properties_:
 android.enableJetifier=true
 ```
 
+Add to _settings.gradle_:
+
+![image](https://github.com/user-attachments/assets/50e558f8-0af6-44b1-8e62-6ff022f6358f)
+
+```
+jcenter()
+```
+
+
+
 
 Library is available in jcenter repository, probably it'll be in Maven Central soon.
 

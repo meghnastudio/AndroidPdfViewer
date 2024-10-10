@@ -119,7 +119,7 @@ pdfView.fromAsset(String)
 Custom providers may be used with `pdfView.fromSource(DocumentSource)` method.
 
 ## Links
-Version 3.0.0 introduced support for links in PDF documents. By default, **DefaultLinkHandler**
+Version 1.0 introduced support for links in PDF documents. By default, **DefaultLinkHandler**
 is used and clicking on link that references page in same document causes jump to destination page
 and clicking on link that targets some URI causes opening it in default application.
 

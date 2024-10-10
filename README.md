@@ -100,7 +100,7 @@ There is default implementation shipped with AndroidPdfViewer, and you can use i
 By using constructor with second argument (`new DefaultScrollHandle(this, true)`), handle can be placed left or top.
 
 You can also create custom scroll handles, just implement **ScrollHandle** interface.
-All methods are documented as Javadoc comments on interface [source](https://github.com/barteksc/AndroidPdfViewer/tree/master/android-pdf-viewer/src/main/java/com/github/barteksc/pdfviewer/scroll/ScrollHandle.java).
+All methods are documented as Javadoc comments on interface [source](https://github.com/meghnastudio/AndroidPdfViewer/blob/master/pdfviewer/src/main/java/com/mobarok/pdfviewer/scroll/ScrollHandle.java).
 
 ## Document sources
 Version 2.3.0 introduced _document sources_, which are just providers for PDF documents.
@@ -124,11 +124,11 @@ is used and clicking on link that references page in same document causes jump t
 and clicking on link that targets some URI causes opening it in default application.
 
 You can also create custom link handlers, just implement **LinkHandler** interface and set it using
-`Configurator#linkHandler(LinkHandler)` method. Take a look at [DefaultLinkHandler](https://github.com/barteksc/AndroidPdfViewer/tree/master/android-pdf-viewer/src/main/java/com/github/barteksc/pdfviewer/link/DefaultLinkHandler.java)
+`Configurator#linkHandler(LinkHandler)` method. Take a look at [DefaultLinkHandler](https://github.com/meghnastudio/AndroidPdfViewer/blob/master/pdfviewer/src/main/java/com/mobarok/pdfviewer/link/DefaultLinkHandler.java)
 source to implement custom behavior.
 
 ## Pages fit policy
-Since version 3.0.0, library supports fitting pages into the screen in 3 modes:
+Since version 1.0, library supports fitting pages into the screen in 3 modes:
 * WIDTH - width of widest page is equal to screen width
 * HEIGHT - height of highest page is equal to screen height
 * BOTH - based on widest and highest pages, every page is scaled to be fully visible on screen
@@ -196,21 +196,10 @@ You can use a combination of the following settings to get scroll and fling beha
 ## One more thing
 If you have any suggestions on making this lib better, write me, create issue or write some code and send pull request.
 
-## License
+## Copyright
 
-Created with the help of android-pdfview by [Joan Zapata](http://joanzapata.com/)
 ```
-Copyright 2017 Bartosz Schiller
+Copyright Oct-2024 Mobarok Hossain Mukut
 
-Licensed under the Apache License, Version 2.0 (the "License");
-you may not use this file except in compliance with the License.
-You may obtain a copy of the License at
 
-    http://www.apache.org/licenses/LICENSE-2.0
-
-Unless required by applicable law or agreed to in writing, software
-distributed under the License is distributed on an "AS IS" BASIS,
-WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-See the License for the specific language governing permissions and
-limitations under the License.
 ```

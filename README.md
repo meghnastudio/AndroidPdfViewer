@@ -13,14 +13,18 @@ Licensed under Apache License 2.0.
 
 Add to _build.gradle_:
 
-`implementation 'com.github.meghnastudio:AndroidPdfViewer:1.0'`
+```
+implementation 'com.github.meghnastudio:AndroidPdfViewer:1.0'
+```
 
 
 Add to _gradle.properties_:
 
+
 ```
 android.enableJetifier=true
 ```
+
 
 Library is available in jcenter repository, probably it'll be in Maven Central soon.
 

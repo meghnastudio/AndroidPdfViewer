@@ -1,11 +1,6 @@
-
-# Change of ownership and looking for contributors!
-
-The ownership of the project was recently changed and we are actively looking for contributors to bring the project back to track. Please [visit](https://github.com/DImuthuUpe/AndroidPdfViewer/issues/1186)
-
 # Android PdfViewer
 
-__AndroidPdfViewer 1.x is available on [AndroidPdfViewerV1](https://github.com/barteksc/AndroidPdfViewerV1)
+__AndroidPdfViewer 1.x is available on [AndroidPdfViewer](https://github.com/meghnastudio/AndroidPdfViewer/)
 repo, where can be developed independently. Version 1.x uses different engine for drawing document on canvas,
 so if you don't like 2.x version, try 1.x.__
 

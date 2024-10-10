@@ -1,13 +1,14 @@
 plugins {
     alias(libs.plugins.android.library)
+    id "maven-publish"
 }
 
 android {
     namespace 'com.mobarok.pdfviewer'
-    compileSdk 34
+    compileSdk 35
 
     defaultConfig {
-        minSdk 24
+        minSdk 25
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         consumerProguardFiles "consumer-rules.pro"

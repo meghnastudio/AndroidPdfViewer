@@ -18,7 +18,9 @@ Add to _build.gradle_:
 
 Add to _gradle.properties_:
 
-`android.enableJetifier=true`
+```proguard
+android.enableJetifier=true
+```
 
 Library is available in jcenter repository, probably it'll be in Maven Central soon.
 

@@ -13,11 +13,8 @@ Licensed under Apache License 2.0.
 
 Add to _build.gradle_:
 
-`implementation 'com.github.barteksc:android-pdf-viewer:3.2.0-beta.1'`
+`implementation 'com.github.meghnastudio:AndroidPdfViewer:1.0'`
 
-or if you want to use more stable version:
- 
-`implementation 'com.github.barteksc:android-pdf-viewer:2.8.2'`
 
 Library is available in jcenter repository, probably it'll be in Maven Central soon.
 
@@ -31,7 +28,7 @@ If you are using ProGuard, add following rule to proguard config file:
 ## Include PDFView in your layout
 
 ``` xml
-<com.github.barteksc.pdfviewer.PDFView
+<com.mobarok.pdfviewer.PDFView
         android:id="@+id/pdfView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"/>
@@ -92,7 +89,7 @@ pdfView.fromAsset(String)
 
 Scroll handle is replacement for **ScrollBar** from 1.x branch.
 
-From version 2.1.0 putting **PDFView** in **RelativeLayout** to use **ScrollHandle** is not required, you can use any layout.
+From version 1.0 putting **PDFView** in **RelativeLayout** to use **ScrollHandle** is not required, you can use any layout.
 
 To use scroll handle just register it using method `Configurator#scrollHandle()`.
 This method accepts implementations of **ScrollHandle** interface.

@@ -125,7 +125,7 @@ All methods are documented as Javadoc comments on interface [source](https://git
 ## Document sources
 Version 2.3.0 introduced _document sources_, which are just providers for PDF documents.
 Every provider implements **DocumentSource** interface.
-Predefined providers are available in **com.github.barteksc.pdfviewer.source** package and can be used as
+Predefined providers are available in **com.mobarok.pdfviewer.source** package and can be used as
 samples for creating custom ones.
 
 Predefined providers can be used with shorthand methods:

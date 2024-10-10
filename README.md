@@ -27,10 +27,14 @@ android.enableJetifier=true
 
 Add to _settings.gradle_:
 
-![image](https://github.com/user-attachments/assets/50e558f8-0af6-44b1-8e62-6ff022f6358f)
+![image](https://github.com/user-attachments/assets/2d6c9552-7b21-48d7-9f3d-6863875595fc)
+
 
 ```
+
 jcenter()
+maven { url 'https://jitpack.io' }
+
 ```
 
 

@@ -18,7 +18,7 @@ Add to _build.gradle_:
 
 Add to _gradle.properties_:
 
-```proguard
+```
 android.enableJetifier=true
 ```
 
